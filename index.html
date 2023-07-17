@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JSS Console</title>
+</head>
+<body>
+    <h1>JS Tutorials: The Console @VisualStudio2019</h1>
+    <p>Visual Studio, developed by Windows, is a popular text editor and IDE, which is used and trusted by coders around the world. It offers a wide variety of languages, features, themes, and more, just what a coder needs to start coding! </p>
+        <img src="https://docs.lagerdata.com/_images/vscode_launch_json.png" height="250px">
+    <p>  Visual Studio can be installed through the <a href="https://code.visualstudio.com/">Download link</a>. Once set up, which can be done by following the instructions in the downloader, you can start your own project by creating a new folder, either through file explorer or through VSCode itself.
+    </p>
+    <p>This tutorial is gonna be covering JavaScript, a very useful language that is used for various websites, web apps, applications, and more. In this Beginner tutorial, we're gonna be learning to make a console web app.</p>
+    <h2>What is a Console?</h2>
+    <p>A console is a command line interface which can ran your JavaScript codes through, and you can interact with.</p>
+    <p>Open the console to see what we will be doing:
+        (Hint: Right-click→ Inspect→ Console)
+    </p>
+    <script>
+         console.log("Hi! I am the Console!");
+         console.log("To display any variable on the screen, use this code:var first_name = Rocky(put rocky in double quotes); console.log(first_name);")
+
+         var first_name = "Rocky ";
+         console.log("result:");
+         console.log(first_name);
+         console.log("Let's try it again:")
+
+         var last_name = "Singh";
+         console.log("result:");
+         console.log(last_name);
+
+         var full_name = first_name.concat(last_name);
+         console.log("Let's join the first name and last name together, using .concat technique. Result:")
+         console.log(full_name);
+
+         var length_of_full_name = full_name.length;
+         console.log("What's the length of the full name? Let's see using .length:")
+         console.log(length_of_full_name)
+
+         var name_one = "I am Dwayne Williams"
+         console.log("let's try something new:")
+         console.log(name_one)
+
+         var pre_replaced = "If we replace 'Williams' with 'Johnson', using .replace(), it becomes:"
+         console.log(pre_replaced)
+
+         var replaced_name = name_one.replace("Williams", "Johnson")
+         console.log(replaced_name)
+
+         var capital_name = "ROCKY"
+         console.log("This name is in All Caps:")
+         console.log(capital_name)
+
+         var lowercase_name = capital_name.toLowerCase();
+         console.log("Let's make it lowercase, using .toLowerCase")
+         console.log(lowercase_name)
+
+        var small_name_01 = "john"
+        console.log("This name is lowercase, let's make it upppercase using .toUpperCase")
+        console.log(small_name_01)
+
+        var uppercase_name_01 = small_name_01.toUpperCase();
+        console.log(uppercase_name_01)
+
+        var square_root = Math.sqrt(16)
+        console.log("Time for some math: let's use Math.sqrt() to get the square root of 16:")
+        console.log(square_root)
+
+        var maximum_number = Math.max(16, 8)
+        console.log("Math again: what's bigger, 16 or 8? Let's see using .max!")
+        console.log(maximum_number)
+
+        var minimum_number = Math.min(18,9)
+        console.log("Math yet again: using .min to find whether 18 or 9 is smaller")
+        console.log(minimum_number)
+
+        var power_eg1 = Math.pow(4,2)
+        console.log("What about powers? Let's use Math .pow to find out the 2nd power of 4:")
+        console.log(power_eg1)
+
+        var power_eg2 = Math.pow(6, 3)
+        console.log("Powers again: What's the 3rd power of 6?")
+        console.log(power_eg2)
+
+        var number1 = 16
+        var number2 = 4
+        console.log("Let's add 16 and 4 using (console.log(number1 + number2)):")
+        console.log(number1 + number2)
+
+        console.log("EXTRA Events")
+
+        var number_1_to_string = number1.toString();
+        var number_2_to_string = number2.toString();
+        console.log("instead of adding a number with a number, what happens if we add a string with a string? Added bonus: How do we convert a number to a string")
+        console.log(number_1_to_string + number_2_to_string);
+
+        var pi = 3.14159265389793
+        console.log("Here is a really huge number:")
+        console.log(pi)
+
+        var fixedPi = pi.toFixed(3)
+        console.log("Let's shorten it to 3 digits!")
+        console.log(fixedPi)
+
+        console.log("That's it! Remember to check the source code (inspect→ Source) for the code!")
+    </script>
+</body>
+</html>
